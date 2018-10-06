@@ -7,7 +7,7 @@ public class Main2 {
 
         Scanner r = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print();
         int a = r.nextInt();
 
         if(a>0&&a% 2 == 0)
