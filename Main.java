@@ -3,21 +3,21 @@ public class Main
 {
 public static void main(String[] args)
 {
-int n;
+int a;
 Scanner s=new Scanner(System.in);
 System.out.println();
-n=s.nextInt();
-if(n>0)
+a=s.nextInt();
+if(a>0)
 {
-System.out.println("the number is positive");
+System.out.println(" positive");
 }
-else if(n<0)
+else if(a<0)
 {
-System.out.println("the number is negative");
+System.out.println(" negative");
 }
 else
 {
-System.out.println("the number is zero");
+System.out.println(" zero");
 }
 }
 }
