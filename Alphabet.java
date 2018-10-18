@@ -5,15 +5,15 @@ public class Alphabet
     public static void main(String args[])
     {
     	
-        char ab;
+        char j;
         Scanner scan = new Scanner(System.in);
 		
        
         System.out.print(" ");
-        ab = scan.next().charAt(0);
+        j = scan.next().charAt(0);
 		
        
-        if((ab>='a' && ch<='z') || (ab>='A' && ch<='Z'))
+        if((j>='a' && j<='z') || (j>='A' && j<='Z'))
         {
             System.out.print("Alphabet");
         }
