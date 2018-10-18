@@ -9,7 +9,7 @@ public class Vowel
       
         Scanner sc=new Scanner(System.in);
          
-        System.out.print("Enter Alphabets: ");
+        System.out.print(" ");
         ch=sc.next().charAt(0);
          
         if( (ch>='A' && ch<='Z') || ch>='a' && ch<='z')
