@@ -5,7 +5,7 @@ public static void main(String[] args)
 {
  int no,a=0;
  Scanner s=new Scanner(System.in);
-System.out.println(" ");
+System.out.println("");
  no = s.nextInt();
 
 if(no<0)
