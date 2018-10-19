@@ -6,7 +6,7 @@ public class SumNatural
 
         int num , sum = 0;
  Scanner s=new Scanner(System.in);
-System.out.println(" ");
+System.out.println("");
  num = s.nextInt();
 
 
