@@ -1,23 +1,23 @@
 import java.util.Scanner;
-public class Main
+class Main
 {
-public static void main(String[] args)
+  public static void main(String args[])
 {
-int a;
-Scanner s=new Scanner(System.in);
-System.out.println();
-a=s.nextInt();
-if(a>0)
-{
-System.out.println(" Positive");
-}
-else if(a<0)
-{
-System.out.println(" Negative");
-}
-else
-{
-System.out.println(" zero");
-}
-}
-}
+    int c=0,a,b;  
+    int n;
+    Scanner s =new Scanner(System.in);
+    System.out.println("");
+    n=s.nextInt(); 
+    b=n;  
+    while(n>0)  
+    {  
+    a=n%10;  
+    n=n/10;  
+    c=c+(a*a*a);  
+    }  
+    if(b==c)  
+    System.out.println("yes");   
+    else  
+        System.out.println("no");   
+   }  
+}  
