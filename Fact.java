@@ -6,7 +6,7 @@ class Fact
   int i,j=1;  
   int n;
   Scanner s=new Scanner(System.in);
-  System.out.println(" ");  
+  System.out.println("");  
   n=s.nextInt();
   for(i=1;i<=n;i++)
   {    
